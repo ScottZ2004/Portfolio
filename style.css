@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     font-family: trade-gothic-next, sans-serif;
     font-weight: 400;
@@ -32,7 +35,9 @@ a:hover{
     width: auto;
     font-size: 20px;
     margin: 1em;
-    padding: 1vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 0.5vh;
     border-radius: 6px;
     transition: box-shadow 0.3s ease-in-out;
 }
@@ -56,6 +61,7 @@ a:hover{
 body{
     margin: 0;
     padding: 0;
+    background-color: #FFFAFA;
 }
 
 /* Header hieronder */
@@ -88,8 +94,84 @@ body{
     margin-right: 2vh;
 }
 
-/* id's */
+/* Home */
 #home{
     background: rgb(34,201,133);
     background: linear-gradient(180deg, rgba(34,201,133,1) 0%, rgba(33,198,134,1) 30%, rgba(25,172,144,1) 100%);
+    width: 100%;
+    padding-top: 75px;
+}
+
+.home-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-text{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.home-container div img{
+    width: 32em;
+    height: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.arrow-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3em;
+}
+
+/* Projects */
+#projects{
+    margin-top: -75px;
+    padding: 75px;
+}
+
+#projects h1{
+    display: flex;
+    justify-content: center;
+}
+
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects-container img{
+    width: 20em;
+    height: auto;
+    margin: 2em;
+    border-radius: 15px;
+}
+
+/* About me */
+#about-me{
+    background: rgb(34,201,133);
+    background: linear-gradient(180deg, rgba(34,201,133,1) 0%, rgba(33,198,134,1) 30%, rgba(25,172,144,1) 100%);
+    width: 100%;
+}
+
+.about-me-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.about-me-container div p{
+    padding-left: 1.3em;
+}
+
+.about-me-container div h1{
+    padding-left: 0.4em;
+}
+
+.about-me-container img{
+    width: 10em;
+    height: auto;
 }
