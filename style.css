@@ -28,6 +28,10 @@ h2 {
     padding: 0.5vh 0vh;
 }
 
+p{
+    font-size: 2.5vh;
+}
+
 button{
     padding: 8px 18px;
     border: none;
@@ -295,5 +299,39 @@ header {
 
     .about-me-text-container h1{
         font-size: 40px;
+    }
+}
+
+/*Experience*/
+
+.experience-container{
+    margin: 20px;
+}
+
+.experience-container h1{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.language-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.language{
+    padding: 10px;
+    width: 500px;
+    height: auto;
+}
+
+@media (max-width: 1039px) {
+    .experience-container h1{
+        font-size: 47px;
+    }
+
+    .language svg{
+        padding: 20px 0;
     }
 }
