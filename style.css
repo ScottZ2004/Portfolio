@@ -1,9 +1,10 @@
 :root{
     --light-green: #24C985;
     --light-green-darker: #19AC90;
-    --dark-green: #02353C;
+    --dark-green: #02353c;
     --dark-green-lighter: #044a54;
     --white: #FFFAFA;
+    --gray: #808080;
 }
 *{
     font-family: trade-gothic-next, sans-serif;
@@ -26,14 +27,6 @@ h2 {
     padding: 0.5vh 0vh;
 }
 
-@media(max-width: 580px) {
-    h1{
-        font-size: 26px;
-    }
-    h2{
-        font-size: 16px;
-    }
-}
 
 /*Header*/
 
@@ -74,15 +67,24 @@ button{
     padding: 8px 8px;
     background-color: var(--dark-green);
     border: none;
-    border-radius: 13px;
+    border-radius: 7px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     color: var(--white);
     box-shadow: #414141 0px 0px 5px;
+    font-size: 2vh;
 }
 
 button:hover{
     background-color: var(--dark-green-lighter);
+}
+
+.button-dark{
+    background-color: var(--dark-green);
+}
+
+.button-light{
+    background-color: var(--light-green);
 }
 
 .hamburger{
@@ -185,8 +187,61 @@ button:hover{
 
 }
 
-.arrow svg{
+.arrow a svg{
     max-width: 200px;
     height: auto;
     margin: 30px;
+
+}
+
+
+@media(max-width: 580px) {
+    #home .home-text-img-container .home-text-container h1{
+        font-size: 26px;
+    }
+    #home .home-text-img-container .home-text-container h2{
+        font-size: 16px;
+    }
+}
+
+/*Project section*/
+.Project-container{
+   margin: 10vh 0;
+
+}
+
+.Project-container h1{
+    display: flex;
+    justify-content: center;
+    margin: 10vh 0;
+}
+
+.Projects{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.Project{
+    margin: 15px 30px;
+    width: 60vh;
+    height: auto;
+}
+
+.Project a img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: var(--gray) 0 0 10px;
+    transition: all 0.3s ease 0s;
+}
+.Project a img:hover{
+    box-shadow: var(--gray) 0 0 20px;
+    transition: all 0.3s ease 0s;
+}
+
+@media(max-width: 1200px){
+    .Project-container h1{
+        font-size: 50px;
+    }
 }
