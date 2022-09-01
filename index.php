@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Scott Zico</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/logo_scott/logo_scott/logo_scott_1%20klein.png">
 
 </head>
 <body>
@@ -25,16 +26,16 @@
             <span class="bar"></span>
             <span class="bar"></span>
         </div>
-        <a class="cta" href="#"><button class="button-dark">Contact me</button></a>
+        <a class="cta" href="#contact"><button class="button-dark">Contact me</button></a>
     </header>
-    <script src="script.js"></script>
+
 
     <div id="home" class="home-container">
         <div class="home-text-img-container">
             <div class="home-text-container">
                 <h2>Hi I'm Scott</h2>
                 <h1>I'm a Software Developer</h1>
-                <h2><a href="#">Learn more ></a></h2>
+                <h2><a id="learn-more" href="#about-me">Learn more ></a></h2>
             </div>
             <div class="home-image-container">
                 <img src="Images/logo_scott/logo_scott/logo_scott_1.png" alt="logo">
@@ -62,7 +63,7 @@
     <div id="projects" class="Project-container">
         <h1>My Projects</h1>
         <div class="Projects">
-            <div class="Project"><img id="The_story_of" src="Images/Projecten/The%20story%20of.png" alt="The story of"></div>
+            <div class="Project"><img id="The_story_of" src="Images/Projecten/the%20story%20of.png" alt="The story of"></div>
             <div class="Project"><img src="Images/Projecten/Lam-foto.png" alt="LAM"></div>
             <div class="Project"><img src="Images/Projecten/Hunt%20for%20life.png" alt="Hunt for life"></div>
             <div class="Project"><img src="Images/Projecten/Expanding%20space.png" alt="Expanding space"></div>
@@ -179,21 +180,67 @@
             </div>
         </div>
     </div>
+    <div id="contact" class="contact-container">
+        <form class="contact-form" action="contactform.php" method="post">
+            <h1>Contact</h1>
+            <div class="row-100">
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="first-name" required="required">
+                        <span class="contact-text">First Name</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="last-name" required="required">
+                        <span class="contact-text">Last Name</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row-100">
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="mail" required="required">
+                        <span class="contact-text">Email</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="phone" required="">
+                        <span class="contact-text">Phone Number</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row-100">
+                <div class="col">
+                    <div class="inputBox textarea">
+                        <textarea name="message" required="required"></textarea>
+                        <span class="contact-text">Message</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row-100">
+                <div class="col">
+                    <button type="submit" name="submit" class="button-light">Send</button>
+                </div>
+            </div>
+        </form>
+    </div>
     <div class="footer">
         <h2 class="footer-item">Scott Zico van den Broek</h2>
         <div class="footer-item">
             <svg xmlns="http://www.w3.org/2000/svg" width="161.559" height="32.312" viewBox="0 0 161.559 32.312">
                 <g id="Group_65" data-name="Group 65" transform="translate(-886.998 -2715.059)">
-                    <a class="footer-social" href="https://www.linkedin.com/in/scott-van-den-broek-03a11a224/">
+                    <a class="footer-social" target="_blank" href="https://www.linkedin.com/in/scott-van-den-broek-03a11a224/">
                         <path id="Icon_awesome-linkedin" data-name="Icon awesome-linkedin" d="M30,2.25H2.3A2.318,2.318,0,0,0,0,4.58V32.232a2.318,2.318,0,0,0,2.3,2.33H30a2.324,2.324,0,0,0,2.308-2.33V4.58A2.324,2.324,0,0,0,30,2.25ZM9.766,29.946H4.977V14.526h4.8v15.42ZM7.371,12.42a2.777,2.777,0,1,1,2.777-2.777A2.778,2.778,0,0,1,7.371,12.42ZM27.718,29.946H22.928v-7.5c0-1.789-.036-4.089-2.488-4.089-2.5,0-2.878,1.947-2.878,3.96v7.631H12.773V14.526h4.594v2.106h.065a5.044,5.044,0,0,1,4.537-2.488c4.847,0,5.748,3.2,5.748,7.35Z" transform="translate(951.622 2712.81)" fill="#fff"/>
                     </a>
-                    <a class="footer-social" href="mailto:scottzico2004@gmail.com">
+                    <a class="footer-social" target="_blank" href="mailto:scottzico2004@gmail.com">
                         <g id="Group_25" data-name="Group 25" transform="translate(886.998 2715.06)">
                             <rect id="Rectangle_63" data-name="Rectangle 63" width="32.312" height="32.312" rx="2" transform="translate(0 0)" fill="#fff"/>
                             <path id="Icon_material-email" data-name="Icon material-email" d="M24.008,6H5.334A2.307,2.307,0,0,0,3.012,8.286L3,22a2.317,2.317,0,0,0,2.334,2.286H24.008A2.317,2.317,0,0,0,26.342,22V8.286A2.317,2.317,0,0,0,24.008,6Zm0,4.571-9.337,5.714L5.334,10.571V8.286L14.671,14l9.337-5.714Z" transform="translate(1.485 1.013)" fill="#02353c"/>
                         </g>
                     </a>
-                    <a class="footer-social" href="https://github.com/ScottZ2004">
+                    <a class="footer-social" target="_blank" href="https://github.com/ScottZ2004">
                         <g id="Group_26" data-name="Group 26" transform="translate(1016.245 2715.06)">
                             <rect id="Rectangle_64" data-name="Rectangle 64" width="32.312" height="32.312" rx="2" transform="translate(0 0)" fill="#fff"/>
                             <path id="Icon_awesome-github" data-name="Icon awesome-github" d="M9.618,23.138c0,.116-.133.209-.3.209-.191.017-.325-.075-.325-.209,0-.116.133-.209.3-.209C9.467,22.912,9.618,23,9.618,23.138Zm-1.8-.261c-.041.116.075.249.249.284a.272.272,0,0,0,.359-.116c.035-.116-.075-.249-.249-.3A.3.3,0,0,0,7.815,22.877Zm2.562-.1c-.168.041-.284.151-.267.284.017.116.168.191.342.151s.284-.151.267-.267S10.546,22.761,10.377,22.778ZM14.192.563A13.9,13.9,0,0,0,0,14.708,14.535,14.535,0,0,0,9.827,28.576c.742.133,1-.325,1-.7,0-.359-.017-2.342-.017-3.56,0,0-4.058.87-4.91-1.728,0,0-.661-1.687-1.612-2.122,0,0-1.328-.91.093-.893a3.06,3.06,0,0,1,2.238,1.5,3.065,3.065,0,0,0,4.226,1.212,3.222,3.222,0,0,1,.928-1.954c-3.241-.359-6.511-.829-6.511-6.406a4.394,4.394,0,0,1,1.368-3.415,5.478,5.478,0,0,1,.151-3.936c1.212-.377,4,1.565,4,1.565a13.7,13.7,0,0,1,7.282,0s2.789-1.948,4-1.565a5.475,5.475,0,0,1,.151,3.936,4.507,4.507,0,0,1,1.5,3.415c0,5.595-3.415,6.041-6.655,6.406a3.429,3.429,0,0,1,.986,2.69c0,1.954-.017,4.371-.017,4.847,0,.377.267.835,1,.7a14.4,14.4,0,0,0,9.728-13.856A14.215,14.215,0,0,0,14.192.563Zm-8.557,20c-.075.058-.058.191.041.3.093.093.226.133.3.058.075-.058.058-.191-.041-.3C5.844,20.523,5.71,20.483,5.635,20.558Zm-.626-.47c-.041.075.017.168.133.226a.172.172,0,0,0,.249-.041c.041-.075-.017-.168-.133-.226C5.142,20.013,5.05,20.03,5.009,20.088Zm1.878,2.064c-.093.075-.058.249.075.359.133.133.3.151.377.058.075-.075.041-.249-.075-.359C7.137,22.077,6.963,22.059,6.887,22.152ZM6.226,21.3c-.093.058-.093.209,0,.342s.249.191.325.133a.264.264,0,0,0,0-.359C6.47,21.283,6.319,21.225,6.226,21.3Z" transform="translate(1.778 1.575)" fill="#02353c"/>
@@ -210,6 +257,7 @@
                 </g>
             </svg>
         </div>
+        <script src="script.js"></script>
     </div>
 </body>
 </html>
