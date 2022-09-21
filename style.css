@@ -278,6 +278,7 @@ header {
     width: 100vw;
     background-color: rgba(0,0,0,0.3);
     display: none;
+
 }
 
 .modal-container.show{
@@ -289,7 +290,8 @@ header {
 .X{
     font-weight: bold;
     cursor: pointer;
-    text-align: right;
+    display: flex;
+    justify-content: right;
     font-size: 3vh;
 }
 
@@ -299,9 +301,13 @@ header {
     max-width: 100%;
     padding: 30px 50px;
     border-radius: 25px;
+    overflow: auto;
+    max-height: 100%;
 }
 .modal h1, .modal p{
     color: var(--white);
+    display: flex;
+    align-items: center;
 }
 
 .modal-row{
@@ -322,8 +328,18 @@ header {
     justify-content: center;
 
 }
+.modal-language{
+    display: flex;
+    align-items: center;
+}
+.modal-button svg{
+    transform: scale(0.7);
+}
+.modal-language svg{
+    transform: scale(0.8);
+}
 
-.modal-button svg g:hover{
+.modal-button svg:hover{
     cursor: pointer;
 }
 
