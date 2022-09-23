@@ -5,6 +5,7 @@
     --dark-green-lighter: #044a54;
     --white: #fffafa;
     --gray: #7c7c7c;
+    --dark-green-opacity: rgba(2, 53, 60, 0);
 }
 *{
     font-family: trade-gothic-next, sans-serif;
@@ -240,27 +241,90 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
 
-}
 .Project{
+    position: relative;
     margin: 15px 30px;
-    padding: 10px;
-    width: 60vh;
-    height: auto;
+    width: 400px;
+    height: 265px;
+    border-radius: 15px;
+    box-shadow: var(--gray) 0 0 10px;
+    transition:ease-in-out 0.3s;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--dark-green);
+    text-align: center;
+    overflow: hidden;
 }
+
 
 .Project img{
     width: 100%;
     height: auto;
     border-radius: 15px;
-    box-shadow: var(--gray) 0 0 10px;
-    transition: all 0.3s ease 0s;
+    transition:ease-in-out 0.3s;
 }
-.Project img:hover{
-    box-shadow: var(--gray) 0 0 20px;
-    transition: all 0.3s ease 0s;
+
+.Project__text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition:ease-in-out 0.3s;
+}
+
+.Project__text h3{
+    color: var(--white);
+    margin: 20px;
+
+}
+
+.Project__text a{
+    border-radius: 40px;
+    border: solid var(--white) 4px;
+    padding: 6px 8px;
+    color: var(--white);
+    margin: 20px;
+}
+
+.Project__text a:hover{
+    background-color: var(--white);
+    color: var(--dark-green);
+    transition:ease-in-out 0.3s;
+}
+
+.Project:hover{
     cursor: pointer;
 }
+
+.Project:hover img{
+    opacity: 0;
+    transform: scale(1.05);
+}
+
+.Project:hover .Project__text{
+    opacity: 1;
+}
+
+
+@media (max-width: 460px) {
+    .Project{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media (max-width: 360px) {
+    .Project{
+        width: 200px;
+        height: 133.33px;
+    }
+}
+
+
+
+
 
 @media(max-width: 1200px){
     .Project-container h1{

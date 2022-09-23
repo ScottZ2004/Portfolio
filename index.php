@@ -8,7 +8,6 @@
     <title>Scott Zico</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="Images/logo_scott/logo_scott/logo_scott_1%20klein.png">
-
 </head>
 <body>
     <header>
@@ -28,8 +27,6 @@
         </div>
         <a class="cta" href="#contact"><button class="button-dark">Contact me</button></a>
     </header>
-
-
     <div id="home" class="home-container">
         <div class="home-text-img-container">
             <div class="home-text-container">
@@ -63,13 +60,48 @@
     <div id="projects" class="Project-container">
         <h1>My Projects</h1>
         <div class="Projects">
-            <div class="Project"><img id="open_TSO" src="Images/Projecten/the%20story%20of.png" alt="The story of"></div>
-            <div class="Project"><img id="open_LAM" src="Images/Projecten/Lam-foto.png" alt="LAM"></div>
-            <div class="Project"><img id="open_HFL" src="Images/Projecten/Hunt%20for%20life.png" alt="Hunt for life"></div>
-            <div class="Project"><img id="open_ES" src="Images/Projecten/Expanding%20space.png" alt="Expanding space"></div>
-            <div class="Project"><img id="open_TC" src="Images/Projecten/Transformers_community.png" alt="Transformers community"></div>
-            <div class="Project"><img id="open_SM" src="Images/Projecten/Stedlijk%20logo%20wit.png" alt="Stedelijk musuem"></div>
-
+            <div id="open_TSO" class="Project">
+                <img src="Images/Projecten/the%20story%20of.png" alt="">
+                <div class="Project__text">
+                    <h3>My first coding project, a text-based application.</h3>
+                    <a>Learn More</a>
+                </div>
+            </div>
+            <div id="open_LAM" class="Project">
+                <img src="Images/Projecten/Lam-foto.png" alt="">
+                <div class="Project__text">
+                    <h3>My first website, a Landingspage with a quiz.</h3>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+            <div id="open_HFL" class="Project">
+                <img src="Images/Projecten/Hunt%20for%20life.png" alt="">
+                <div class="Project__text">
+                    <h3>My first unity game, a top-down puzzle game.</h3>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+            <div id="open_ES" class="Project">
+                <img src="Images/Projecten/Expanding%20space.png" alt="">
+                <div class="Project__text">
+                    <h3>My second unity game, a 2d platformer.</h3>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+            <div id="open_TC" class="Project">
+                <img src="Images/Projecten/Transformers_community.png" alt="">
+                <div class="Project__text">
+                    <h3>My first backend project, a blog.</h3>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+            <div id="open_SM" class="Project">
+                <img src="Images/Projecten/Stedlijk%20logo%20wit.png" alt="">
+                <div class="Project__text">
+                    <h3>My first Wordpress website, a landingspage with a online shop.</h3>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="modal-container" id="modal_container_TSO">
@@ -113,11 +145,8 @@
                             <path id="Icon_awesome-github" data-name="Icon awesome-github" d="M16.614,39.559c0,.2-.23.361-.521.361-.33.03-.561-.13-.561-.361,0-.2.23-.361.521-.361C16.354,39.168,16.614,39.329,16.614,39.559ZM13.5,39.108c-.07.2.13.431.431.491a.47.47,0,0,0,.621-.2c.06-.2-.13-.431-.431-.521A.514.514,0,0,0,13.5,39.108Zm4.426-.17c-.29.07-.491.26-.461.491.03.2.29.33.591.26s.491-.26.461-.461S18.216,38.908,17.926,38.938ZM24.516.563A24.014,24.014,0,0,0,0,25,25.107,25.107,0,0,0,16.975,48.953c1.282.23,1.733-.561,1.733-1.212,0-.621-.03-4.046-.03-6.149,0,0-7.01,1.5-8.482-2.984,0,0-1.142-2.914-2.784-3.665,0,0-2.293-1.572.16-1.542a5.286,5.286,0,0,1,3.866,2.584c2.193,3.866,5.868,2.754,7.3,2.093a5.566,5.566,0,0,1,1.6-3.375c-5.6-.621-11.246-1.432-11.246-11.066a7.59,7.59,0,0,1,2.363-5.9,9.462,9.462,0,0,1,.26-6.8c2.093-.651,6.91,2.7,6.91,2.7a23.658,23.658,0,0,1,12.578,0s4.817-3.365,6.91-2.7a9.457,9.457,0,0,1,.26,6.8c1.6,1.773,2.584,3.155,2.584,5.9,0,9.664-5.9,10.435-11.5,11.066a5.922,5.922,0,0,1,1.7,4.647c0,3.375-.03,7.551-.03,8.372,0,.651.461,1.442,1.733,1.212A24.876,24.876,0,0,0,49.672,25C49.672,11.108,38.406.563,24.516.563ZM9.734,35.1c-.13.1-.1.33.07.521.16.16.391.23.521.1.13-.1.1-.33-.07-.521C10.095,35.042,9.864,34.972,9.734,35.1Zm-1.082-.811c-.07.13.03.29.23.391a.3.3,0,0,0,.431-.07c.07-.13-.03-.29-.23-.391C8.883,34.161,8.723,34.191,8.653,34.291ZM11.9,37.857c-.16.13-.1.431.13.621.23.23.521.26.651.1.13-.13.07-.431-.13-.621C12.328,37.726,12.027,37.7,11.9,37.857Zm-1.142-1.472c-.16.1-.16.361,0,.591s.431.33.561.23a.457.457,0,0,0,0-.621C11.176,36.354,10.916,36.254,10.756,36.384Z" transform="translate(3.072 3.13)" fill="#02353c"/>
                         </g>
                     </svg>
-
-
                 </div>
             </div>
-
         </div>
     </div>
     <div class="modal-container" id="modal_container_LAM">
