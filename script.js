@@ -88,3 +88,32 @@ open_SM.addEventListener('click', () =>{
 close_SM.addEventListener('click', () =>{
     modal_container_SM.classList.remove('show');
 })
+//SM
+const open_AP = document.getElementById('open_AP');
+const modal_container_AP = document.getElementById('modal_container_AP');
+const close_AP = document.getElementById('close_AP');
+
+open_AP.addEventListener('click', () =>{
+    modal_container_AP.classList.add('show');
+    console.log('open')
+})
+
+close_AP.addEventListener('click', () =>{
+    modal_container_AP.classList.remove('show');
+    console.log('close')
+});
+
+//CW
+const open_CW = document.getElementById('open_CW');
+const modal_container_CW = document.getElementById('modal_container_CW');
+const close_CW = document.getElementById('close_CW');
+
+open_CW.addEventListener('click', () =>{
+    modal_container_CW.classList.add('show');
+    console.log('open')
+})
+
+close_CW.addEventListener('click', () =>{
+    modal_container_CW.classList.remove('show');
+    console.log('close')
+})

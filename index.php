@@ -71,35 +71,49 @@
                 <img src="Images/Projecten/Lam-foto.png" alt="">
                 <div class="Project__text">
                     <h3>My first website, a Landingspage with a quiz.</h3>
-                    <a href="">Learn More</a>
+                    <a>Learn More</a>
                 </div>
             </div>
             <div id="open_HFL" class="Project">
                 <img src="Images/Projecten/Hunt%20for%20life.png" alt="">
                 <div class="Project__text">
                     <h3>My first unity game, a top-down puzzle game.</h3>
-                    <a href="">Learn More</a>
+                    <a>Learn More</a>
                 </div>
             </div>
             <div id="open_ES" class="Project">
                 <img src="Images/Projecten/Expanding%20space.png" alt="">
                 <div class="Project__text">
                     <h3>My second unity game, a 2d platformer.</h3>
-                    <a href="">Learn More</a>
+                    <a>Learn More</a>
                 </div>
             </div>
             <div id="open_TC" class="Project">
                 <img src="Images/Projecten/Transformers_community.png" alt="">
                 <div class="Project__text">
                     <h3>My first backend project, a blog.</h3>
-                    <a href="">Learn More</a>
+                    <a>Learn More</a>
                 </div>
             </div>
             <div id="open_SM" class="Project">
                 <img src="Images/Projecten/Stedlijk%20logo%20wit.png" alt="">
                 <div class="Project__text">
                     <h3>My first Wordpress website, a landingspage with a online shop.</h3>
-                    <a href="">Learn More</a>
+                    <a>Learn More</a>
+                </div>
+            </div>
+            <div id="open_AP" class="Project">
+                <img src="Images/Projecten/Activity-planner.png" alt="">
+                <div class="Project__text">
+                    <h3>My solo backend project, an activity planner.</h3>
+                    <a>Learn More</a>
+                </div>
+            </div>
+            <div id="open_CW" class="Project">
+                <img src="Images/Projecten/ChristmasWishList.png    " alt="">
+                <div class="Project__text">
+                    <h3>My Christmas WishList project, I used a Laravel Api and React</h3>
+                    <a>Learn More</a>
                 </div>
             </div>
         </div>
@@ -331,7 +345,7 @@
                     The assignment was to make a new website for the
                     Transformers community. This project I worked on
                     the backend of the website while my teammate worked
-                    on the frontend.
+                    on the frontend. We build it in the framework Simplerouter
                     <br>
                     <br>
                     Duo project
@@ -384,7 +398,7 @@
                     <br>
                     I worked with another web developer and two
                     E-Commerce designers, they delivered the website
-                    layoout and the idea for the business trip.
+                    design and the idea for the business trip.
                     <br>
                     <br>
                     Group project
@@ -417,6 +431,108 @@
 
         </div>
     </div>
+    <div class="modal-container" id="modal_container_AP">
+        <div class="modal">
+            <p class="X" id="close_AP">✕</p>
+            <div class="modal-row">
+                <h1>Activity Planner</h1>
+                <div class="modal-language">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="187.063" height="128.027" viewBox="0 0 187.063 128.027">
+                        <path id="Icon_awesome-laravel" data-name="Icon awesome-laravel" d="M186.33,62.395c-1.227-1.4-18.353-22.825-21.364-26.449s-4.5-2.981-6.342-2.718c-1.87.263-23.526,3.916-26.04,4.325-2.513.438-4.092,1.432-2.543,3.595,1.374,1.929,15.606,22.123,18.763,26.566L92.2,81.274,47.131,6.019c-1.783-2.659-2.163-3.595-6.254-3.39C36.785,2.8,5.543,5.406,3.322,5.61,1.1,5.786-1.354,6.779.867,12.04s37.7,81.714,38.694,83.935,3.565,5.845,9.586,4.384c6.167-1.49,27.559-7.072,39.249-10.141,6.167,11.193,18.763,33.872,21.1,37.116,3.1,4.355,5.261,3.624,10.024,2.163,3.741-1.14,58.333-20.779,60.788-21.773,2.455-1.023,3.975-1.724,2.309-4.208-1.227-1.812-15.635-21.1-23.176-31.212,5.173-1.374,23.555-6.254,25.514-6.809,2.309-.585,2.63-1.7,1.374-3.1ZM83.4,83.437c-.672.146-32.381,7.745-34.077,8.125s-1.7.2-1.9-.38S9.723,13.238,9.2,12.274s-.5-1.724,0-1.724,29.956-2.63,30.979-2.689c1.052-.058.935.175,1.315.818,0,0,41.558,71.719,42.26,72.975C84.51,82.911,84.072,83.291,83.4,83.437Zm89.429,16.775c.5.789,1.023,1.315-.585,1.87-1.578.585-53.687,18.149-54.68,18.587-1.023.438-1.812.584-3.1-1.315S96.229,88.142,96.229,88.142l55.177-14.35c1.374-.438,1.812-.731,2.689.643.848,1.4,18.237,24.988,18.733,25.777Zm3.536-39.191c-1.227.263-21.51,5.29-21.51,5.29L138.284,43.574c-.468-.672-.848-1.315.322-1.461s19.99-3.565,20.838-3.741c.848-.2,1.578-.438,2.63.994S177.446,58.946,178,59.648C178.527,60.32,177.592,60.729,176.365,61.021Z" transform="translate(0.006 -2.602)" fill="snow"/>
+                    </svg>
+
+                </div>
+            </div>
+            <div class="modal-row">
+                <p>
+                    I always wanted to make my own laravel backend project. I thought of an activity planner because my friends and I had a hard time planning
+                    our meetups. So I thought I create a web app to make it easier.
+                    <br>
+                    <br>
+                    I worked with laravel, because I always wanted to do a project with this framework.
+                    I also decided to work with ChartJS for the first time, because I wanted to challenge myself.
+                    <br>
+                    <br>
+                    Solo project
+                    <br>
+                    <br>
+                    Start: September 8th 2022
+                    <br>
+                    End: Work in progress
+                </p>
+                <img src="Images/Projecten/Activity-planner-screenshot.png" alt="Verhaal van Amir">
+            </div>
+            <div class="modal-row">
+                <div class="modal-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="223.227" height="55.816" viewBox="0 0 223.227 55.816">
+                        <g id="Group_26" data-name="Group 26" onclick="window.open('https://github.com/ScottZ2004/Activity-Planner')">
+                            <rect id="Rectangle_64" data-name="Rectangle 64" width="55.815" height="55.815" rx="10" transform="translate(0 0)" fill="#fff"/>
+                            <path id="Icon_awesome-github" data-name="Icon awesome-github" d="M16.614,39.559c0,.2-.23.361-.521.361-.33.03-.561-.13-.561-.361,0-.2.23-.361.521-.361C16.354,39.168,16.614,39.329,16.614,39.559ZM13.5,39.108c-.07.2.13.431.431.491a.47.47,0,0,0,.621-.2c.06-.2-.13-.431-.431-.521A.514.514,0,0,0,13.5,39.108Zm4.426-.17c-.29.07-.491.26-.461.491.03.2.29.33.591.26s.491-.26.461-.461S18.216,38.908,17.926,38.938ZM24.516.563A24.014,24.014,0,0,0,0,25,25.107,25.107,0,0,0,16.975,48.953c1.282.23,1.733-.561,1.733-1.212,0-.621-.03-4.046-.03-6.149,0,0-7.01,1.5-8.482-2.984,0,0-1.142-2.914-2.784-3.665,0,0-2.293-1.572.16-1.542a5.286,5.286,0,0,1,3.866,2.584c2.193,3.866,5.869,2.754,7.3,2.093a5.566,5.566,0,0,1,1.6-3.375c-5.6-.621-11.246-1.432-11.246-11.066a7.59,7.59,0,0,1,2.363-5.9,9.462,9.462,0,0,1,.26-6.8c2.093-.651,6.91,2.7,6.91,2.7a23.658,23.658,0,0,1,12.578,0s4.817-3.365,6.91-2.7a9.457,9.457,0,0,1,.26,6.8c1.6,1.773,2.584,3.155,2.584,5.9,0,9.664-5.9,10.435-11.5,11.066a5.922,5.922,0,0,1,1.7,4.647c0,3.375-.03,7.551-.03,8.372,0,.651.461,1.442,1.733,1.212A24.876,24.876,0,0,0,49.672,25C49.672,11.108,38.406.563,24.516.563ZM9.734,35.1c-.13.1-.1.33.07.521.16.16.391.23.521.1.13-.1.1-.33-.07-.521C10.095,35.042,9.864,34.972,9.734,35.1Zm-1.082-.811c-.07.13.03.29.23.391a.3.3,0,0,0,.431-.07c.07-.13-.03-.29-.23-.391C8.883,34.161,8.723,34.191,8.653,34.291ZM11.9,37.857c-.16.13-.1.431.13.621.23.23.521.26.651.1.13-.13.07-.431-.13-.621C12.328,37.726,12.027,37.7,11.9,37.857Zm-1.142-1.472c-.16.1-.16.361,0,.591s.431.33.561.23a.457.457,0,0,0,0-.621C11.176,36.354,10.916,36.254,10.756,36.384Z" transform="translate(3.072 3.13)" fill="#02353c"/>
+                        </g>
+                        <path onclick="window.open('https://trello.com/b/veKIhMXl/activity-planner')" id="Icon_awesome-trello" data-name="Icon awesome-trello" d="M48.878,2.25H6.992A6.984,6.984,0,0,0,0,9.227c-.012,0,0-.5,0,41.862a6.981,6.981,0,0,0,6.977,6.977H48.866a6.982,6.982,0,0,0,6.94-6.977V9.227A6.963,6.963,0,0,0,48.878,2.25ZM24.546,44.523a3.353,3.353,0,0,1-3.351,3.314h-10.3a3.339,3.339,0,0,1-3.364-3.314V12.852A3.352,3.352,0,0,1,10.879,9.5H21.207a3.352,3.352,0,0,1,3.351,3.351v31.67ZM48.6,30.569a3.352,3.352,0,0,1-3.351,3.351H35.161a3.352,3.352,0,0,1-3.351-3.351v-17.7a3.35,3.35,0,0,1,3.339-3.351h10.1A3.352,3.352,0,0,1,48.6,12.865v17.7Z" transform="translate(167.422 -2.25)" fill="#fff"/>
+                        <g onclick="window.open('http://scottzico.com/activity-planner')"  id="Group_28" data-name="Group 28" transform="translate(83.709)">
+                            <g id="Group_21" data-name="Group 21" transform="translate(0)">
+                                <rect id="Rectangle_64-2" data-name="Rectangle 64" width="55.816" height="55.815" rx="10" transform="translate(0)" fill="#fff"/>
+                            </g>
+                            <path id="Icon_awesome-globe" data-name="Icon awesome-globe" d="M28.518,13.445C27.29,5.876,24.391.562,21.018.562s-6.272,5.314-7.5,12.882ZM12.882,21.581A53.12,53.12,0,0,0,13.162,27h15.7a53.121,53.121,0,0,0,.28-5.424,53.121,53.121,0,0,0-.28-5.424h-15.7A53.12,53.12,0,0,0,12.882,21.581ZM40.4,13.445a21.062,21.062,0,0,0-13.391-12c2.068,2.865,3.492,7.178,4.238,12Zm-25.383-12a21.048,21.048,0,0,0-13.382,12h9.153c.737-4.822,2.161-9.136,4.229-12Zm26.29,14.713H31.586c.178,1.78.28,3.6.28,5.424s-.1,3.644-.28,5.424H41.3a20.837,20.837,0,0,0,.729-5.424A21.2,21.2,0,0,0,41.307,16.157ZM10.17,21.581c0-1.822.1-3.644.28-5.424H.729A20.547,20.547,0,0,0,.729,27h9.712C10.272,25.225,10.17,23.4,10.17,21.581Zm3.348,8.136c1.229,7.568,4.127,12.882,7.5,12.882s6.272-5.314,7.5-12.882Zm13.5,12a21.083,21.083,0,0,0,13.391-12H31.256c-.746,4.822-2.17,9.136-4.238,12Zm-25.383-12a21.062,21.062,0,0,0,13.391,12c-2.068-2.865-3.492-7.178-4.238-12H1.636Z" transform="translate(6.894 6.327)" fill="#02353c"/>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="modal-container" id="modal_container_CW">
+        <div class="modal">
+            <p class="X" id="close_CW">✕</p>
+            <div class="modal-row">
+                <h1>Christmas Wishlist</h1>
+                <div class="modal-language">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="425.063" height="140.007" viewBox="0 0 425.063 140.007">
+                    <path id="Icon_awesome-laravel" data-name="Icon awesome-laravel" d="M186.33,62.395c-1.227-1.4-18.353-22.825-21.364-26.449s-4.5-2.981-6.342-2.718c-1.87.263-23.526,3.916-26.04,4.325-2.513.438-4.092,1.432-2.543,3.595,1.374,1.929,15.606,22.123,18.763,26.566L92.2,81.274,47.131,6.019c-1.783-2.659-2.163-3.595-6.254-3.39C36.785,2.8,5.543,5.406,3.322,5.61,1.1,5.786-1.354,6.779.867,12.04s37.7,81.714,38.694,83.935,3.565,5.845,9.586,4.384c6.167-1.49,27.559-7.072,39.249-10.141,6.167,11.193,18.763,33.872,21.1,37.116,3.1,4.355,5.261,3.624,10.024,2.163,3.741-1.14,58.333-20.779,60.788-21.773,2.455-1.023,3.975-1.724,2.309-4.208-1.227-1.812-15.635-21.1-23.176-31.212,5.173-1.374,23.555-6.254,25.514-6.809,2.309-.585,2.63-1.7,1.374-3.1ZM83.4,83.437c-.672.146-32.381,7.745-34.077,8.125s-1.7.2-1.9-.38S9.723,13.238,9.2,12.274s-.5-1.724,0-1.724,29.956-2.63,30.979-2.689c1.052-.058.935.175,1.315.818,0,0,41.558,71.719,42.26,72.975C84.51,82.911,84.072,83.291,83.4,83.437Zm89.429,16.775c.5.789,1.023,1.315-.585,1.87-1.578.585-53.687,18.149-54.68,18.587-1.023.438-1.812.584-3.1-1.315S96.229,88.142,96.229,88.142l55.177-14.35c1.374-.438,1.812-.731,2.689.643.848,1.4,18.237,24.988,18.733,25.777Zm3.536-39.191c-1.227.263-21.51,5.29-21.51,5.29L138.284,43.574c-.468-.672-.848-1.315.322-1.461s19.99-3.565,20.838-3.741c.848-.2,1.578-.438,2.63.994S177.446,58.946,178,59.648C178.527,60.32,177.592,60.729,176.365,61.021Z" transform="translate(238.006 3.388)" fill="snow"/>
+                    <path id="Icon_awesome-react" data-name="Icon awesome-react" d="M130.688,47.622q-2.531-.844-5.062-1.594c.281-1.156.531-2.313.781-3.469,3.844-18.625,1.313-33.594-7.219-38.531-8.219-4.719-21.625.187-35.188,12-1.344,1.156-2.656,2.375-3.906,3.594C79.25,18.809,78.375,18,77.5,17.216,63.281,4.591,49.031-.722,40.5,4.247,32.313,9,29.875,23.091,33.313,40.716c.344,1.75.719,3.469,1.156,5.219-2,.562-3.969,1.188-5.812,1.844C11.969,53.559,0,62.684,0,72.122c0,9.75,12.75,19.531,30.094,25.469,1.406.469,2.812.938,4.25,1.344-.469,1.875-.875,3.719-1.25,5.625-3.281,17.344-.719,31.094,7.469,35.812C49,145.247,63.188,140.247,77,128.153c1.094-.969,2.188-1.969,3.281-3.031,1.375,1.344,2.812,2.625,4.25,3.875,13.375,11.5,26.594,16.156,34.75,11.438,8.438-4.875,11.188-19.656,7.625-37.656q-.422-2.062-.937-4.219c1-.281,1.969-.594,2.938-.906C146.938,91.684,160,82.028,160,72.122c0-9.469-12.312-18.656-29.312-24.5ZM88.406,21.091C100.031,10.966,110.875,7,115.813,9.841c5.281,3.031,7.313,15.281,4,31.375-.219,1.063-.438,2.094-.719,3.125a159.976,159.976,0,0,0-21.031-3.313A157.889,157.889,0,0,0,84.75,24.434c1.219-1.156,2.406-2.25,3.656-3.344ZM52.25,88.341c1.594,2.719,3.219,5.438,4.937,8.094a141.509,141.509,0,0,1-14.5-2.344,145.98,145.98,0,0,1,5.094-13.906c1.438,2.75,2.906,5.469,4.469,8.156ZM42.781,50.747c4.5-1,9.281-1.812,14.25-2.437-1.656,2.594-3.281,5.25-4.812,7.938-1.531,2.656-3.031,5.375-4.438,8.125-1.969-4.656-3.625-9.219-5-13.625Zm8.562,21.531c2.063-4.312,4.313-8.531,6.688-12.687s4.938-8.188,7.625-12.156C70.344,47.091,75.125,46.9,80,46.9s9.688.188,14.344.531q3.984,5.906,7.594,12.094t6.781,12.625q-3.141,6.469-6.75,12.75c-2.375,4.156-4.906,8.188-7.563,12.188-4.656.344-9.5.5-14.406.5s-9.656-.156-14.25-.437Q61.672,91.2,58.063,84.966c-2.406-4.156-4.625-8.375-6.719-12.688Zm56.437,16c1.594-2.75,3.094-5.531,4.563-8.344a145.068,145.068,0,0,1,5.281,13.844,137.262,137.262,0,0,1-14.687,2.5C104.625,93.653,106.219,90.966,107.781,88.278Zm4.5-23.906c-1.469-2.75-2.969-5.5-4.531-8.188q-2.3-3.984-4.781-7.875a143.806,143.806,0,0,1,14.344,2.5,138.3,138.3,0,0,1-5.031,13.563ZM80.063,29.216A137.219,137.219,0,0,1,89.313,40.4c-6.187-.281-12.406-.281-18.594,0C73.781,36.372,76.938,32.622,80.063,29.216ZM43.813,10.059C49.063,7,60.719,11.372,73,22.247c.781.687,1.563,1.438,2.375,2.188A158.768,158.768,0,0,0,61.969,41.028a164.728,164.728,0,0,0-21,3.25c-.406-1.594-.75-3.219-1.094-4.844-2.937-15.125-1-26.531,3.938-29.375ZM36.156,92.434c-1.312-.375-2.594-.781-3.875-1.219-6.656-2.094-14.219-5.406-19.688-9.75a14.022,14.022,0,0,1-5.875-9.344c0-5.719,9.875-13.031,24.125-18,1.781-.625,3.594-1.188,5.406-1.719a166.169,166.169,0,0,0,7.656,19.875,170.821,170.821,0,0,0-7.75,20.156Zm36.438,30.625a57.2,57.2,0,0,1-17.625,11.031,13.831,13.831,0,0,1-11.031.406c-4.969-2.875-7.031-13.906-4.219-28.75.344-1.75.719-3.5,1.156-5.219a156.332,156.332,0,0,0,21.219,3.062,164.911,164.911,0,0,0,13.5,16.688C74.594,121.247,73.594,122.184,72.594,123.059Zm7.656-7.594c-3.187-3.437-6.375-7.25-9.469-11.344,3,.125,6.094.188,9.219.188,3.219,0,6.375-.062,9.5-.219a134.764,134.764,0,0,1-9.25,11.375Zm40.844,9.375a13.888,13.888,0,0,1-5.156,9.781c-4.969,2.875-15.562-.875-27-10.688-1.313-1.125-2.625-2.344-3.969-3.594a154.587,154.587,0,0,0,13.187-16.75,154.049,154.049,0,0,0,21.313-3.281c.313,1.281.594,2.563.844,3.813a56.966,56.966,0,0,1,.781,20.719Zm5.688-33.594c-.875.281-1.75.562-2.656.812a158.749,158.749,0,0,0-7.969-19.937,157.961,157.961,0,0,0,7.656-19.656c1.625.469,3.188.969,4.688,1.469,14.563,5,24.781,12.438,24.781,18.125,0,6.125-10.906,14.031-26.5,19.188ZM80,86.559A14.312,14.312,0,1,0,65.688,72.247,14.31,14.31,0,0,0,80,86.559Z" transform="translate(0 -2.251)" fill="snow"/>
+                </svg>
+
+
+                </div>
+            </div>
+            <div class="modal-row">
+                <p>
+                    Since I began using the React framework, I wanted to make a simple backend project, with Laravel and React.
+                    <br>
+                    <br>
+                    I chose to make a christmas wishlist app, because I like the christmas season and so I thought I could make a simple wishlist app with a login.
+                    <br>
+                    <br>
+                    Solo project
+                    <br>
+                    <br>
+                    Start: November 30th 2022
+                    <br>
+                    End: December 10th 2022
+                </p>
+                <img src="Images/Projecten/ChristmasWishList site.png" alt="Verhaal van Amir">
+            </div>
+            <div class="modal-row">
+                <div class="modal-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="139.525" height="55.816" viewBox="0 0 139.525 55.816">
+                    <g onclick="window.open('https://github.com/ScottZ2004/Christmas-Wishlist')" id="Group_26" data-name="Group 26">
+                        <rect id="Rectangle_64" data-name="Rectangle 64" width="55.815" height="55.815" rx="10" transform="translate(0 0)" fill="#fff"/>
+                        <path id="Icon_awesome-github" data-name="Icon awesome-github" d="M16.614,39.559c0,.2-.23.361-.521.361-.33.03-.561-.13-.561-.361,0-.2.23-.361.521-.361C16.354,39.168,16.614,39.329,16.614,39.559ZM13.5,39.108c-.07.2.13.431.431.491a.47.47,0,0,0,.621-.2c.06-.2-.13-.431-.431-.521A.514.514,0,0,0,13.5,39.108Zm4.426-.17c-.29.07-.491.26-.461.491.03.2.29.33.591.26s.491-.26.461-.461S18.216,38.908,17.926,38.938ZM24.516.563A24.014,24.014,0,0,0,0,25,25.107,25.107,0,0,0,16.975,48.953c1.282.23,1.733-.561,1.733-1.212,0-.621-.03-4.046-.03-6.149,0,0-7.01,1.5-8.482-2.984,0,0-1.142-2.914-2.784-3.665,0,0-2.293-1.572.16-1.542a5.286,5.286,0,0,1,3.866,2.584c2.193,3.866,5.869,2.754,7.3,2.093a5.566,5.566,0,0,1,1.6-3.375c-5.6-.621-11.246-1.432-11.246-11.066a7.59,7.59,0,0,1,2.363-5.9,9.462,9.462,0,0,1,.26-6.8c2.093-.651,6.91,2.7,6.91,2.7a23.658,23.658,0,0,1,12.578,0s4.817-3.365,6.91-2.7a9.457,9.457,0,0,1,.26,6.8c1.6,1.773,2.584,3.155,2.584,5.9,0,9.664-5.9,10.435-11.5,11.066a5.922,5.922,0,0,1,1.7,4.647c0,3.375-.03,7.551-.03,8.372,0,.651.461,1.442,1.733,1.212A24.876,24.876,0,0,0,49.672,25C49.672,11.108,38.406.563,24.516.563ZM9.734,35.1c-.13.1-.1.33.07.521.16.16.391.23.521.1.13-.1.1-.33-.07-.521C10.095,35.042,9.864,34.972,9.734,35.1Zm-1.082-.811c-.07.13.03.29.23.391a.3.3,0,0,0,.431-.07c.07-.13-.03-.29-.23-.391C8.883,34.161,8.723,34.191,8.653,34.291ZM11.9,37.857c-.16.13-.1.431.13.621.23.23.521.26.651.1.13-.13.07-.431-.13-.621C12.328,37.726,12.027,37.7,11.9,37.857Zm-1.142-1.472c-.16.1-.16.361,0,.591s.431.33.561.23a.457.457,0,0,0,0-.621C11.176,36.354,10.916,36.254,10.756,36.384Z" transform="translate(3.072 3.13)" fill="#02353c"/>
+                    </g>
+                    <g onclick="window.open('https://christmas-wishlist.scottzico.com/')" id="Group_28" data-name="Group 28" transform="translate(83.709)">
+                        <g id="Group_21" data-name="Group 21" transform="translate(0)">
+                        <rect id="Rectangle_64-2" data-name="Rectangle 64" width="55.816" height="55.815" rx="10" transform="translate(0)" fill="#fff"/>
+                        </g>
+                        <path id="Icon_awesome-globe" data-name="Icon awesome-globe" d="M28.518,13.445C27.29,5.876,24.391.562,21.018.562s-6.272,5.314-7.5,12.882ZM12.882,21.581A53.12,53.12,0,0,0,13.162,27h15.7a53.121,53.121,0,0,0,.28-5.424,53.121,53.121,0,0,0-.28-5.424h-15.7A53.12,53.12,0,0,0,12.882,21.581ZM40.4,13.445a21.062,21.062,0,0,0-13.391-12c2.068,2.865,3.492,7.178,4.238,12Zm-25.383-12a21.048,21.048,0,0,0-13.382,12h9.153c.737-4.822,2.161-9.136,4.229-12Zm26.29,14.713H31.586c.178,1.78.28,3.6.28,5.424s-.1,3.644-.28,5.424H41.3a20.837,20.837,0,0,0,.729-5.424A21.2,21.2,0,0,0,41.307,16.157ZM10.17,21.581c0-1.822.1-3.644.28-5.424H.729A20.547,20.547,0,0,0,.729,27h9.712C10.272,25.225,10.17,23.4,10.17,21.581Zm3.348,8.136c1.229,7.568,4.127,12.882,7.5,12.882s6.272-5.314,7.5-12.882Zm13.5,12a21.083,21.083,0,0,0,13.391-12H31.256c-.746,4.822-2.17,9.136-4.238,12Zm-25.383-12a21.062,21.062,0,0,0,13.391,12c-2.068-2.865-3.492-7.178-4.238-12H1.636Z" transform="translate(6.894 6.327)" fill="#02353c"/>
+                    </g>
+                </svg>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
     <div id="about-me" class="about-me-container">
         <div class="about-me-text-container">
             <h1>About me</h1>
@@ -426,16 +542,14 @@
                 and I like to solve problems.
             </p>
             <p>
-                I have experience with frontend-, backend- and game-development. My expertise
-                lies with the back-end, because I think it is the most interesting side of this industry
-                and the most chalenging. I also folowed some game-development lessons, but I
-                quickly realised that it is not my cup of tea.
+                I am a backend developer
+                because I like to work with databases and because I think it is very challenging and interesting. I also 
+                like front-end because I like to design websites and because you make something visual and interactive.
             </p>
             <p>
-                In the future I would like to learn even more about the backend of websites and
-                databases and I hope to be better at front-end development.
+                In the future I would like to learn more about backend-development and I hope to
+                be better at front-end development.
             </p>
-            <a href="#"><button class="button-dark">CV</button></a>
         </div>
         <div class="about-me-image-container">
             <img src="Images/Portret.png" alt="Portret">
@@ -495,13 +609,14 @@
 
             </div>
             <div class="language"><svg xmlns="http://www.w3.org/2000/svg" width="400" height="135" viewBox="0 0 400 135">
-                <g id="Group_48" data-name="Group 48" transform="translate(-1070.5 -3894.508)">
-                    <path id="Icon_simple-unity" data-name="Icon simple-unity" d="M92.769,89.133,72.723,55.708,92.769,22.283l9.79,33.425Zm-44.287-3.25-25.173-24.6H63.4L83.445,94.7l-34.963-8.82Zm0-60.815,34.963-8.82L63.4,49.673H22.843c0,.464,25.64-24.6,25.64-24.6ZM99.762,0,54.076,11.606,47.084,23.212H33.565L0,55.708,33.565,88.2H47.084L53.61,99.811,99.3,111.417l12.121-44.1L104.89,55.708,111.882,44.1Z" transform="translate(1070.5 3908.091)" fill="#02353c"/>
-                    <text id="Unity_C_" data-name="Unity/C#" transform="translate(1237.199 3947.508)" fill="#02353c" font-size="50" font-family="TradeGothicNextLTPro-Bd, Trade Gothic Next LT Pro"><tspan x="0" y="0">Unity/C#</tspan></text>
-                    <rect id="Rectangle_82" data-name="Rectangle 82" width="233.301" height="55.189" rx="4" transform="translate(1237.199 3974.318)" fill="#02353c"/>
-                    <text id="_1_Year" data-name="1 Year" transform="translate(1301.867 4013.335)" fill="snow" font-size="32" font-family="TradeGothicNextLTPro-Rg, Trade Gothic Next LT Pro"><tspan x="0" y="0">1 Year</tspan></text>
-                </g>
-            </svg>
+                    <g id="Group_48" data-name="Group 48" transform="translate(-1070.5 -3894.508)">
+                        <path id="Icon_simple-unity" data-name="Icon simple-unity" d="M92.769,89.133,72.723,55.708,92.769,22.283l9.79,33.425Zm-44.287-3.25-25.173-24.6H63.4L83.445,94.7l-34.963-8.82Zm0-60.815,34.963-8.82L63.4,49.673H22.843c0,.464,25.64-24.6,25.64-24.6ZM99.762,0,54.076,11.606,47.084,23.212H33.565L0,55.708,33.565,88.2H47.084L53.61,99.811,99.3,111.417l12.121-44.1L104.89,55.708,111.882,44.1Z" transform="translate(1070.5 3908.091)" fill="#02353c"/>
+                        <text id="Unity_C_" data-name="Unity/C#" transform="translate(1237.199 3947.508)" fill="#02353c" font-size="50" font-family="TradeGothicNextLTPro-Bd, Trade Gothic Next LT Pro"><tspan x="0" y="0">Unity/C#</tspan></text>
+                        <rect id="Rectangle_82" data-name="Rectangle 82" width="233.301" height="55.189" rx="4" transform="translate(1237.199 3974.318)" fill="#02353c"/>
+                        <text id="_6_Months" data-name="6 Months" transform="translate(1288.85 4015.913)" fill="snow" font-size="32" font-family="TradeGothicNextLTPro-Rg, Trade Gothic Next LT Pro"><tspan x="0" y="0">6 Months</tspan></text>
+                    </g>
+                </svg>
+
 
             </div>
             <div class="language"><svg xmlns="http://www.w3.org/2000/svg" width="400" height="135" viewBox="0 0 400 135">
@@ -525,7 +640,80 @@
             </svg>
 
             </div>
+            <div class="language"><svg xmlns="http://www.w3.org/2000/svg" width="400" height="135" viewBox="0 0 400 135">
+                    <g id="Group_75" data-name="Group 75" transform="translate(-1049.7 -4078.498)">
+                        <text id="React" transform="translate(1216.399 4131.499)" fill="#02353c" font-size="50" font-family="TradeGothicNextLTPro-Bd, Trade Gothic Next LT Pro"><tspan x="0" y="0">React</tspan></text>
+                        <rect id="Rectangle_108" data-name="Rectangle 108" width="233.301" height="55.189" rx="4" transform="translate(1216.399 4158.309)" fill="#02353c"/>
+                        <text id="_2_Months" data-name="2 Months" transform="translate(1268.049 4199.904)" fill="snow" font-size="32" font-family="TradeGothicNextLTPro-Rg, Trade Gothic Next LT Pro"><tspan x="0" y="0">2 Months</tspan></text>
+                        <path id="Icon_awesome-react" data-name="Icon awesome-react" d="M108.348,39.866q-2.1-.7-4.2-1.321c.233-.959.44-1.917.648-2.876,3.187-15.441,1.088-27.851-5.985-31.945C92-.188,80.885,3.88,69.641,13.673c-1.114.959-2.2,1.969-3.239,2.979-.7-.674-1.425-1.347-2.15-1.995C52.464,4.191,40.65-.214,33.577,3.906c-6.788,3.938-8.809,15.623-5.959,30.235.285,1.451.6,2.876.959,4.327-1.658.466-3.29.985-4.819,1.529C9.923,44.789,0,52.354,0,60.178c0,8.083,10.571,16.193,24.95,21.115,1.166.389,2.332.777,3.524,1.114-.389,1.555-.725,3.083-1.036,4.663-2.72,14.379-.6,25.779,6.192,29.691,7,4.042,18.758-.1,30.209-10.13.907-.8,1.814-1.632,2.72-2.513,1.14,1.114,2.332,2.176,3.524,3.213,11.089,9.534,22.048,13.395,28.81,9.482,7-4.042,9.275-16.3,6.322-31.219q-.35-1.71-.777-3.5c.829-.233,1.632-.492,2.435-.751C121.82,76.4,132.65,68.391,132.65,60.178c0-7.85-10.208-15.467-24.3-20.312Zm-35.054-22C82.932,9.476,91.922,6.186,96.016,8.543c4.378,2.513,6.063,12.669,3.316,26.012-.181.881-.363,1.736-.6,2.591A132.63,132.63,0,0,0,81.3,34.4,130.9,130.9,0,0,0,70.263,20.642c1.01-.959,1.995-1.865,3.031-2.772ZM43.319,73.625c1.321,2.254,2.669,4.508,4.093,6.71a117.317,117.317,0,0,1-12.021-1.943,121.026,121.026,0,0,1,4.223-11.529c1.192,2.28,2.409,4.534,3.7,6.762Zm-7.85-31.168c3.731-.829,7.695-1.5,11.814-2.021-1.373,2.15-2.72,4.353-3.99,6.581-1.27,2.2-2.513,4.456-3.679,6.736-1.632-3.86-3.005-7.643-4.145-11.3Zm7.1,17.851c1.71-3.575,3.575-7.073,5.544-10.519S52.205,43,54.433,39.711c3.886-.285,7.85-.44,11.892-.44s8.032.155,11.892.44q3.3,4.9,6.3,10.026T90.135,60.2q-2.6,5.363-5.6,10.571c-1.969,3.446-4.068,6.788-6.27,10.1-3.86.285-7.876.415-11.944.415s-8.006-.13-11.814-.363Q51.13,76,48.137,70.827c-1.995-3.446-3.834-6.943-5.57-10.519Zm46.79,13.265c1.321-2.28,2.565-4.586,3.783-6.917a120.269,120.269,0,0,1,4.378,11.477,113.8,113.8,0,0,1-12.177,2.073C86.741,78.029,88.062,75.8,89.357,73.573Zm3.731-19.82c-1.218-2.28-2.461-4.56-3.757-6.788q-1.9-3.3-3.964-6.529a119.224,119.224,0,0,1,11.892,2.073,114.659,114.659,0,0,1-4.171,11.244ZM66.377,24.606a113.767,113.767,0,0,1,7.669,9.275c-5.13-.233-10.286-.233-15.415,0C61.169,30.539,63.786,27.43,66.377,24.606ZM36.323,8.725c4.353-2.539,14.016,1.088,24.2,10.1.648.57,1.3,1.192,1.969,1.814A131.627,131.627,0,0,0,51.376,34.4a136.57,136.57,0,0,0-17.41,2.694c-.337-1.321-.622-2.669-.907-4.016-2.435-12.54-.829-22,3.264-24.354ZM29.976,77.019c-1.088-.311-2.15-.648-3.213-1.01-5.518-1.736-11.788-4.482-16.322-8.083A11.625,11.625,0,0,1,5.57,60.178c0-4.741,8.187-10.8,20-14.923,1.477-.518,2.979-.985,4.482-1.425A137.764,137.764,0,0,0,36.4,60.308a141.621,141.621,0,0,0-6.425,16.711Zm30.209,25.39a47.42,47.42,0,0,1-14.612,9.146,11.467,11.467,0,0,1-9.146.337c-4.119-2.384-5.829-11.529-3.5-23.836.285-1.451.6-2.9.959-4.327A129.609,129.609,0,0,0,51.48,86.268,136.722,136.722,0,0,0,62.672,100.1C61.843,100.906,61.014,101.683,60.185,102.409Zm6.348-6.3c-2.643-2.85-5.285-6.011-7.85-9.4,2.487.1,5.052.155,7.643.155,2.669,0,5.285-.052,7.876-.181a111.729,111.729,0,0,1-7.669,9.431Zm33.862,7.772a11.514,11.514,0,0,1-4.275,8.109c-4.119,2.384-12.9-.725-22.385-8.861-1.088-.933-2.176-1.943-3.29-2.979A128.163,128.163,0,0,0,81.378,86.268a127.716,127.716,0,0,0,17.669-2.72c.259,1.062.492,2.124.7,3.161a47.228,47.228,0,0,1,.648,17.177Zm4.715-27.851c-.725.233-1.451.466-2.2.674A131.612,131.612,0,0,0,96.3,60.178a130.958,130.958,0,0,0,6.348-16.3c1.347.389,2.643.8,3.886,1.218,12.073,4.145,20.545,10.311,20.545,15.027,0,5.078-9.042,11.633-21.97,15.908ZM66.325,72.148A11.866,11.866,0,1,0,54.459,60.282,11.864,11.864,0,0,0,66.325,72.148Z" transform="translate(1049.7 4091.571)" fill="#02353c"/>
+                    </g>
+                </svg>
+            </div>
+            <div class="language">
+                <svg xmlns="http://www.w3.org/2000/svg" width="400" height="135" viewBox="0 0 400 135">
+                    <g id="Group_76" data-name="Group 76" transform="translate(-1049.7 -4078.498)">
+                        <text id="Git" transform="translate(1216.399 4131.499)" fill="#02353c" font-size="50" font-family="TradeGothicNextLTPro-Bd, Trade Gothic Next LT Pro"><tspan x="0" y="0">Git</tspan></text>
+                        <rect id="Rectangle_108" data-name="Rectangle 108" width="233.301" height="55.189" rx="4" transform="translate(1216.399 4158.309)" fill="#02353c"/>
+                        <text id="_2_Years" data-name="2 Years" transform="translate(1283.049 4199.904)" fill="snow" font-size="32" font-family="TradeGothicNextLTPro-Rg, Trade Gothic Next LT Pro"><tspan x="0" y="0">2 Years</tspan></text>
+                        <path id="Icon_awesome-git-alt" data-name="Icon awesome-git-alt" d="M131.616,63.348,73.062,4.779a8.645,8.645,0,0,0-12.22,0L48.667,16.945,64.094,32.372A10.265,10.265,0,0,1,77.086,45.451l14.87,14.87c10.25-3.533,18.319,9.282,10.621,16.975-7.932,7.932-21.023-.859-16.768-11.181L71.93,52.254V88.74c7.576,3.755,6.665,12.531,2.719,16.469A10.275,10.275,0,1,1,63.48,88.441V51.611A10.271,10.271,0,0,1,57.9,38.136L42.69,22.91,2.53,63.076a8.642,8.642,0,0,0,0,12.22L61.1,133.865a8.642,8.642,0,0,0,12.217,0l58.3-58.3a8.642,8.642,0,0,0,0-12.22Z" transform="translate(1049.7 4077.105)" fill="#02353c"/>
+                    </g>
+                </svg>
+
+            </div>
         </div>
+        <h1>Skills</h1>
+        <div class="language-container">
+
+            <div class="language">
+                <svg xmlns="http://www.w3.org/2000/svg" width="400" height="135" viewBox="0 0 400 135">
+                    <g id="Group_68" data-name="Group 68" transform="translate(-1049.7 -4078.499)">
+                        <text id="English" transform="translate(1216.399 4131.499)" fill="#02353c" font-size="50" font-family="TradeGothicNextLTPro-Bd, Trade Gothic Next LT Pro"><tspan x="0" y="0">English</tspan></text>
+                        <rect id="Rectangle_108" data-name="Rectangle 108" width="233.301" height="55.189" rx="4" transform="translate(1216.399 4158.309)" fill="#02353c"/>
+                        <text id="Language" transform="translate(1266.049 4199.904)" fill="snow" font-size="32" font-family="TradeGothicNextLTPro-Rg, Trade Gothic Next LT Pro"><tspan x="0" y="0">Language</tspan></text>
+                        <g id="Group_70" data-name="Group 70" transform="translate(18 3.371)">
+                            <rect id="Rectangle_122" data-name="Rectangle 122" width="16" height="74" transform="translate(1099.7 4112.794)" fill="rgba(2,53,60,0.9)"/>
+                            <rect id="Rectangle_123" data-name="Rectangle 123" width="15" height="146.135" transform="translate(1034.696 4156.794) rotate(-90)" fill="#1a474e"/>
+                            <path id="Path_8" data-name="Path 8" d="M0,0,47.023-.571l7.934-.152L44.691,4.736l-43.968,1Z" transform="matrix(0.883, 0.469, -0.469, 0.883, 1035.047, 4111.957)" fill="rgba(2,53,60,0.9)"/>
+                            <path id="Path_9" data-name="Path 9" d="M6.889,5.449,55.057,6.655l9.815.123L54.8,1.422-.079-.029Z" transform="matrix(-0.883, 0.469, -0.469, -0.883, 1181.137, 4112.649)" fill="rgba(2,53,60,0.9)"/>
+                            <path id="Path_10" data-name="Path 10" d="M0,0,47.023-.571l7.934-.152L44.691,4.736l-43.968,1Z" transform="matrix(-0.883, -0.469, 0.469, -0.883, 1181.007, 4186.617)" fill="rgba(2,53,60,0.9)"/>
+                            <path id="Path_11" data-name="Path 11" d="M6.889,5.449,55.057,6.655l9.815.123L54.8,1.422-.079-.029Z" transform="translate(1035.977 4185.8) rotate(-29)" fill="rgba(2,53,60,0.9)"/>
+                            <path id="Path_12" data-name="Path 12" d="M1.013-4.775,33.419,11.342H-.019Z" transform="translate(1033.7 4125.794)" fill="rgba(2,53,60,0.84)"/>
+                            <path id="Path_13" data-name="Path 13" d="M1.032,16.117,33.438,0H0Z" transform="translate(1033.838 4161.452)" fill="rgba(2,53,60,0.84)"/>
+                            <path id="Path_14" data-name="Path 14" d="M32.386-4.775-.019,11.342H33.419Z" transform="translate(1148.281 4125.794)" fill="rgba(2,53,60,0.84)"/>
+                            <path id="Path_15" data-name="Path 15" d="M1.032,0,33.438,16.117H0Z" transform="translate(1181.542 4177.569) rotate(180)" fill="rgba(2,53,60,0.84)"/>
+                            <path id="Path_16" data-name="Path 16" d="M1.416-4.775,46.455,19.266,1.01,18.473Z" transform="translate(1096.921 4130.583) rotate(179)" fill="rgba(2,53,60,0.84)"/>
+                            <path id="Path_17" data-name="Path 17" d="M1.435,24.042,46.474,0,1.018.164Z" transform="matrix(1, 0.017, -0.017, 1, 1118.796, 4111.319)" fill="rgba(2,53,60,0.84)"/>
+                            <path id="Path_18" data-name="Path 18" d="M1.435,24.042,46.474,0,1.029.793Z" transform="matrix(-1, -0.017, 0.017, -1, 1096.611, 4187.273)" fill="rgba(2,53,60,0.84)"/>
+                            <path id="Path_19" data-name="Path 19" d="M1.435,0,46.474,24.042,1.029,23.249Z" transform="matrix(1, -0.017, 0.017, 1, 1117.937, 4163.218)" fill="rgba(2,53,60,0.84)"/>
+                            <g id="Rectangle_119" data-name="Rectangle 119" transform="translate(1031.7 4109.794)" fill="none" stroke="#02353c" stroke-width="3">
+                                <rect width="152" height="79" rx="3" stroke="none"/>
+                                <rect x="1.5" y="1.5" width="149" height="76" rx="1.5" fill="none"/>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+
+            </div>
+            <div class="language">
+                <svg xmlns="http://www.w3.org/2000/svg" width="400" height="135.001" viewBox="0 0 400 135.001">
+                    <g id="Group_69" data-name="Group 69" transform="translate(-1043.7 -4078.293)">
+                        <rect id="Rectangle_124" data-name="Rectangle 124" width="233.301" height="55.189" rx="4" transform="translate(1210.399 4158.104)" fill="#02353c"/>
+                        <text id="Dutch" transform="translate(1216.399 4131.293)" fill="#02353c" font-size="50" font-family="TradeGothicNextLTPro-Bd, Trade Gothic Next LT Pro"><tspan x="0" y="0">Dutch</tspan></text>
+                        <text id="Language" transform="translate(1260.049 4199.7)" fill="snow" font-size="32" font-family="TradeGothicNextLTPro-Rg, Trade Gothic Next LT Pro"><tspan x="0" y="0">Language</tspan></text>
+                        <g id="Group_71" data-name="Group 71" transform="translate(1043.7 4107.896)">
+                            <g id="Rectangle_119" data-name="Rectangle 119" fill="none" stroke="#02353c" stroke-width="3">
+                                <rect width="152" height="79" rx="3" stroke="none"/>
+                                <rect x="1.5" y="1.5" width="149" height="76" rx="1.5" fill="none"/>
+                            </g>
+                            <rect id="Rectangle_120" data-name="Rectangle 120" width="149" height="25" transform="translate(2 3)" fill="rgba(2,53,60,0.65)"/>
+                            <rect id="Rectangle_121" data-name="Rectangle 121" width="149" height="25" transform="translate(2 52)" fill="rgba(2,53,60,0.85)"/>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+
+
     </div>
     <div id="contact" class="contact-container">
         <form class="contact-form" action="contactform.php" method="post">
@@ -574,37 +762,61 @@
         </form>
     </div>
     <div class="footer">
-        <h2 class="footer-item">Scott Zico van den Broek</h2>
-        <div class="footer-item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="161.559" height="32.312" viewBox="0 0 161.559 32.312">
-                <g id="Group_65" data-name="Group 65" transform="translate(-886.998 -2715.059)">
-                    <a class="footer-social" target="_blank" href="https://www.linkedin.com/in/scott-van-den-broek-03a11a224/">
-                        <path id="Icon_awesome-linkedin" data-name="Icon awesome-linkedin" d="M30,2.25H2.3A2.318,2.318,0,0,0,0,4.58V32.232a2.318,2.318,0,0,0,2.3,2.33H30a2.324,2.324,0,0,0,2.308-2.33V4.58A2.324,2.324,0,0,0,30,2.25ZM9.766,29.946H4.977V14.526h4.8v15.42ZM7.371,12.42a2.777,2.777,0,1,1,2.777-2.777A2.778,2.778,0,0,1,7.371,12.42ZM27.718,29.946H22.928v-7.5c0-1.789-.036-4.089-2.488-4.089-2.5,0-2.878,1.947-2.878,3.96v7.631H12.773V14.526h4.594v2.106h.065a5.044,5.044,0,0,1,4.537-2.488c4.847,0,5.748,3.2,5.748,7.35Z" transform="translate(951.622 2712.81)" fill="#fff"/>
+        <div class="footer_container">
+            <div class="footer_item_image">
+                <img class="footer_item_image" src="Images/logo_scott/logo_scott/logo_scott_diapositief.png" alt="">
+            </div>
+            <div class="footer_item">
+                <h3 class="footer_item_title">Navigate</h3>
+                <ul class="footer_item_list">
+                    <a href="#home"><li class="footer_item_list_item">Home</li></a>
+                    <a href="#projects"><li class="footer_item_list_item">Projects</li></a>
+                    <a href="#about-me"><li class="footer_item_list_item">About Me</li></a
+                    <a href="#experience"><li class="footer_item_list_item">Experience</li></a>
+                    <a href="#contact"><li class="footer_item_list_item">Contact</li></a>
+                </ul>
+            </div>
+            <div class="footer_item">
+                <h3 class="footer_item_title">Relevant</h3>
+                <ul class="footer_item_list">
+                    <a class="footer_item_list_item_container" href="https://www.linkedin.com/in/scott-van-den-broek-03a11a224/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31.815" height="31.814" viewBox="0 0 31.815 31.814">
+                            <path id="Icon_awesome-linkedin" data-name="Icon awesome-linkedin" d="M29.542,2.25H2.265A2.282,2.282,0,0,0,0,4.544V31.771a2.282,2.282,0,0,0,2.265,2.294H29.542a2.288,2.288,0,0,0,2.272-2.294V4.544A2.288,2.288,0,0,0,29.542,2.25ZM9.615,29.52H4.9V14.337H9.622V29.52ZM7.258,12.263A2.734,2.734,0,1,1,9.992,9.529a2.735,2.735,0,0,1-2.734,2.734ZM27.291,29.52H22.576V22.134c0-1.761-.036-4.027-2.45-4.027-2.457,0-2.833,1.917-2.833,3.9V29.52H12.577V14.337H17.1V16.41h.064a4.967,4.967,0,0,1,4.467-2.45c4.772,0,5.66,3.146,5.66,7.236Z" transform="translate(0 -2.25)" fill="#fff"/>
+                        </svg>
+                        <li class="footer_item_list_item">Linkedin</li>
                     </a>
-                    <a class="footer-social" target="_blank" href="mailto:scottzico2004@gmail.com">
-                        <g id="Group_25" data-name="Group 25" transform="translate(886.998 2715.06)">
-                            <rect id="Rectangle_63" data-name="Rectangle 63" width="32.312" height="32.312" rx="2" transform="translate(0 0)" fill="#fff"/>
-                            <path id="Icon_material-email" data-name="Icon material-email" d="M24.008,6H5.334A2.307,2.307,0,0,0,3.012,8.286L3,22a2.317,2.317,0,0,0,2.334,2.286H24.008A2.317,2.317,0,0,0,26.342,22V8.286A2.317,2.317,0,0,0,24.008,6Zm0,4.571-9.337,5.714L5.334,10.571V8.286L14.671,14l9.337-5.714Z" transform="translate(1.485 1.013)" fill="#02353c"/>
-                        </g>
+                    <a class="footer_item_list_item_container" href="https://github.com/ScottZ2004/" target="_blank">
+                        <svg id="Group_26" data-name="Group 26" xmlns="http://www.w3.org/2000/svg" width="31.815" height="31.814" viewBox="0 0 31.815 31.814">
+                            <rect id="Rectangle_64" data-name="Rectangle 64" width="31.815" height="31.815" rx="2" transform="translate(0 0)" fill="#fff"/>
+                            <path id="Icon_awesome-github" data-name="Icon awesome-github" d="M9.47,22.79c0,.114-.131.205-.3.205-.188.017-.32-.074-.32-.205,0-.114.131-.205.3-.205C9.322,22.568,9.47,22.659,9.47,22.79Zm-1.775-.257c-.04.114.074.245.245.28a.268.268,0,0,0,.354-.114c.034-.114-.074-.245-.245-.3A.293.293,0,0,0,7.695,22.534Zm2.523-.1c-.166.04-.28.148-.263.28.017.114.166.188.337.148s.28-.148.263-.263S10.383,22.419,10.218,22.436ZM13.974.563A13.688,13.688,0,0,0,0,14.491,14.311,14.311,0,0,0,9.675,28.145c.731.131.988-.32.988-.691,0-.354-.017-2.306-.017-3.5,0,0-4,.856-4.835-1.7,0,0-.651-1.661-1.587-2.089,0,0-1.307-.9.091-.879a3.013,3.013,0,0,1,2.2,1.473,3.017,3.017,0,0,0,4.161,1.193,3.173,3.173,0,0,1,.913-1.924c-3.191-.354-6.41-.816-6.41-6.308A4.326,4.326,0,0,1,6.53,10.352a5.393,5.393,0,0,1,.148-3.876c1.193-.371,3.939,1.541,3.939,1.541a13.485,13.485,0,0,1,7.17,0S20.532,6.1,21.726,6.476a5.391,5.391,0,0,1,.148,3.876,4.437,4.437,0,0,1,1.473,3.362c0,5.508-3.362,5.948-6.553,6.308a3.376,3.376,0,0,1,.97,2.649c0,1.924-.017,4.3-.017,4.772,0,.371.263.822.988.691a14.179,14.179,0,0,0,9.578-13.643A14,14,0,0,0,13.974.563ZM5.548,20.25c-.074.057-.057.188.04.3.091.091.223.131.3.057.074-.057.057-.188-.04-.3C5.754,20.216,5.623,20.176,5.548,20.25Zm-.616-.462c-.04.074.017.166.131.223a.17.17,0,0,0,.245-.04c.04-.074-.017-.166-.131-.223C5.063,19.714,4.972,19.731,4.932,19.788ZM6.781,21.82c-.091.074-.057.245.074.354.131.131.3.148.371.057.074-.074.04-.245-.074-.354C7.027,21.746,6.856,21.729,6.781,21.82Zm-.651-.839c-.091.057-.091.205,0,.337s.245.188.32.131a.26.26,0,0,0,0-.354C6.37,20.964,6.222,20.907,6.131,20.981Z" transform="translate(1.751 1.542)" fill="#02353c"/>
+                        </svg>
+                        <li class="footer_item_list_item">Github</li>
                     </a>
-                    <a class="footer-social" target="_blank" href="https://github.com/ScottZ2004">
-                        <g id="Group_26" data-name="Group 26" transform="translate(1016.245 2715.06)">
-                            <rect id="Rectangle_64" data-name="Rectangle 64" width="32.312" height="32.312" rx="2" transform="translate(0 0)" fill="#fff"/>
-                            <path id="Icon_awesome-github" data-name="Icon awesome-github" d="M9.618,23.138c0,.116-.133.209-.3.209-.191.017-.325-.075-.325-.209,0-.116.133-.209.3-.209C9.467,22.912,9.618,23,9.618,23.138Zm-1.8-.261c-.041.116.075.249.249.284a.272.272,0,0,0,.359-.116c.035-.116-.075-.249-.249-.3A.3.3,0,0,0,7.815,22.877Zm2.562-.1c-.168.041-.284.151-.267.284.017.116.168.191.342.151s.284-.151.267-.267S10.546,22.761,10.377,22.778ZM14.192.563A13.9,13.9,0,0,0,0,14.708,14.535,14.535,0,0,0,9.827,28.576c.742.133,1-.325,1-.7,0-.359-.017-2.342-.017-3.56,0,0-4.058.87-4.91-1.728,0,0-.661-1.687-1.612-2.122,0,0-1.328-.91.093-.893a3.06,3.06,0,0,1,2.238,1.5,3.065,3.065,0,0,0,4.226,1.212,3.222,3.222,0,0,1,.928-1.954c-3.241-.359-6.511-.829-6.511-6.406a4.394,4.394,0,0,1,1.368-3.415,5.478,5.478,0,0,1,.151-3.936c1.212-.377,4,1.565,4,1.565a13.7,13.7,0,0,1,7.282,0s2.789-1.948,4-1.565a5.475,5.475,0,0,1,.151,3.936,4.507,4.507,0,0,1,1.5,3.415c0,5.595-3.415,6.041-6.655,6.406a3.429,3.429,0,0,1,.986,2.69c0,1.954-.017,4.371-.017,4.847,0,.377.267.835,1,.7a14.4,14.4,0,0,0,9.728-13.856A14.215,14.215,0,0,0,14.192.563Zm-8.557,20c-.075.058-.058.191.041.3.093.093.226.133.3.058.075-.058.058-.191-.041-.3C5.844,20.523,5.71,20.483,5.635,20.558Zm-.626-.47c-.041.075.017.168.133.226a.172.172,0,0,0,.249-.041c.041-.075-.017-.168-.133-.226C5.142,20.013,5.05,20.03,5.009,20.088Zm1.878,2.064c-.093.075-.058.249.075.359.133.133.3.151.377.058.075-.075.041-.249-.075-.359C7.137,22.077,6.963,22.059,6.887,22.152ZM6.226,21.3c-.093.058-.093.209,0,.342s.249.191.325.133a.264.264,0,0,0,0-.359C6.47,21.283,6.319,21.225,6.226,21.3Z" transform="translate(1.778 1.575)" fill="#02353c"/>
-                        </g>
+                </ul>
+            </div>
+            <div class="footer_item">
+                <h3 class="footer_item_title">Contact</h3>
+                <ul class="footer_item_list">
+                    <a class="footer_item_list_item_container" href="tel:06-25082193">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31.81" height="31.81" viewBox="0 0 31.81 31.81">
+                            <path id="Icon_awesome-phone-square-alt" data-name="Icon awesome-phone-square-alt" d="M28.4,2.25H3.408A3.408,3.408,0,0,0,0,5.658V30.652A3.408,3.408,0,0,0,3.408,34.06H28.4a3.408,3.408,0,0,0,3.408-3.408V5.658A3.408,3.408,0,0,0,28.4,2.25ZM27.238,24.075,26.173,28.69a1.065,1.065,0,0,1-1.037.826A20.593,20.593,0,0,1,4.544,8.924,1.115,1.115,0,0,1,5.37,7.887L9.985,6.822a1.3,1.3,0,0,1,.239-.028,1.155,1.155,0,0,1,.979.645l2.13,4.97a1.271,1.271,0,0,1,.086.42,1.207,1.207,0,0,1-.391.824l-2.69,2.2A16.467,16.467,0,0,0,18.2,23.721l2.2-2.69a1.207,1.207,0,0,1,.824-.391,1.267,1.267,0,0,1,.42.086l4.97,2.13a1.154,1.154,0,0,1,.645.979A1.237,1.237,0,0,1,27.238,24.075Z" transform="translate(0 -2.25)" fill="#fff"/>
+                        </svg>
+                        <li class="footer_item_list_item">06-25082193</li>
                     </a>
-                </g>
-            </svg>
+                    <a class="footer_item_list_item_container" href="mailto:business@scottzico.com">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31.81" height="31.81" viewBox="0 0 31.81 31.81">
+                            <g id="Group_25" data-name="Group 25" transform="translate(-0.66 10)">
+                                <rect id="Rectangle_63" data-name="Rectangle 63" width="31.81" height="31.81" rx="2" transform="translate(0.66 -10)" fill="#fff"/>
+                                <path id="Icon_material-email" data-name="Icon material-email" d="M23.4,6H5.266A2.225,2.225,0,0,0,3.011,8.188L3,21.315A2.235,2.235,0,0,0,5.266,23.5H23.4a2.235,2.235,0,0,0,2.266-2.188V8.188A2.235,2.235,0,0,0,23.4,6Zm0,4.376-9.064,5.47-9.064-5.47V8.188l9.064,5.47L23.4,8.188Z" transform="translate(2.235 -8.846)" fill="#02353c"/>
+                            </g>
+                        </svg>
+                        <li class="footer_item_list_item">business@scottzico.com</li>
+                    </a>
+                </ul>
+            </div>
         </div>
-        <div class="footer-item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="175.817" height="36.86" viewBox="0 0 175.817 36.86">
-                <g id="Group_29" data-name="Group 29" transform="translate(0 0)">
-                    <path id="Icon_awesome-phone-square-alt" data-name="Icon awesome-phone-square-alt" d="M32.91,2.25H3.949A3.949,3.949,0,0,0,0,6.2V35.16A3.949,3.949,0,0,0,3.949,39.11H32.91A3.949,3.949,0,0,0,36.86,35.16V6.2A3.949,3.949,0,0,0,32.91,2.25ZM31.562,27.539l-1.234,5.348a1.234,1.234,0,0,1-1.2.957A23.862,23.862,0,0,1,5.266,9.984a1.292,1.292,0,0,1,.957-1.2L11.57,7.548a1.5,1.5,0,0,1,.277-.032,1.339,1.339,0,0,1,1.135.748l2.468,5.759a1.473,1.473,0,0,1,.1.486,1.4,1.4,0,0,1-.453.955L11.98,18.015a19.081,19.081,0,0,0,9.115,9.115l2.551-3.117a1.4,1.4,0,0,1,.955-.453,1.469,1.469,0,0,1,.486.1l5.759,2.468a1.337,1.337,0,0,1,.748,1.135,1.433,1.433,0,0,1-.032.277Z" transform="translate(0 -2.25)" fill="#fff"/>
-                    <text id="_06-25082193" data-name="06-25082193" transform="translate(59.817 25.981)" fill="snow" font-size="19" font-family="TradeGothicNextLTPro-Bd, Trade Gothic Next LT Pro"><tspan x="0" y="0">06-25082193</tspan></text>
-                </g>
-            </svg>
-        </div>
-        <script src="script.js"></script>
+        <p class="footer_bottom">ⓒ 2022 scottzico.com|Scott Zico van den Broek</p>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
